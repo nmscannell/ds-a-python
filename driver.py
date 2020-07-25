@@ -1,0 +1,15 @@
+from min_heap import MinHeap
+
+heap = MinHeap()
+heap.insert(5)
+heap.insert(10)
+heap.insert(1)
+heap.insert(4)
+heap.insert(7)
+heap.insert(2)
+print(heap)
+print(heap.min())
+print(heap.remove())
+print(heap)
+print(heap.remove())
+print(heap)
